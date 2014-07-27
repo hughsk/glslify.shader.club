@@ -20,7 +20,7 @@ http.createServer(function(req, res) {
       res.end('404')
     }
   })
-}).listen(8080, function(err) {
+}).listen(80, function(err) {
   if (err) throw err
-  console.log('http://localhost:8080/')
+  console.log('http://localhost:80/')
 })
